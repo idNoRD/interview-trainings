@@ -27,8 +27,7 @@ public class Subsets {
         List<List<Integer>> listOfSets = new ArrayList<List<Integer>>();
 
         for (int num : nums) {
-            int n = listOfSets.size();
-            for (int i = 0; i < n; i++) {
+            for (int i = listOfSets.size()-1; i >= 0; i--) {
                 List<Integer> compoundSet = new ArrayList<Integer>(listOfSets.get(i));
                 compoundSet.add(num);
                 listOfSets.add(compoundSet);

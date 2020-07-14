@@ -28,9 +28,9 @@ class SubsetsTest {
         listOfSets.add(new ArrayList<Integer>() {{add(1);}});
         listOfSets.add(new ArrayList<Integer>() {{add(1); add(2);}});
         listOfSets.add(new ArrayList<Integer>() {{add(2);}});
-        listOfSets.add(new ArrayList<Integer>() {{add(1); add(3);}});
-        listOfSets.add(new ArrayList<Integer>() {{add(1); add(2); add(3);}});
         listOfSets.add(new ArrayList<Integer>() {{add(2); add(3);}});
+        listOfSets.add(new ArrayList<Integer>() {{add(1); add(2); add(3);}});
+        listOfSets.add(new ArrayList<Integer>() {{add(1); add(3);}});
         listOfSets.add(new ArrayList<Integer>() {{add(3);}});
         listOfSets.add(new ArrayList<Integer>());
 
